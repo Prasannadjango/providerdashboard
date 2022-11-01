@@ -1,0 +1,14 @@
+.Referal_btn{
+    color: #fff !important;
+    background-color: black !important;
+}
+
+
+
+/* Responsive codes */
+
+@media (min-width:320px) and (max-width:425px) {
+    .Referalcode_container>form{
+        flex-direction: column;
+    }
+}
