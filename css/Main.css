@@ -2,13 +2,274 @@
     color: #fff !important;
     background-color: black !important;
 }
+#profile-container img {
+    width: 150px;
+    height: 150px;
+}
+#profileImage {
+    background: url(/img/User\ Male.png);
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: center;
+    background-color: #E4E3E3;
+}
 
+#imageUpload,#imageUpload1
+{
+    display: none;
+}
 
+#profileImage
+{
+    cursor: pointer;
+}
 
+#profile-container {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#profile-container img {
+    width: 150px;
+    height: 150px;
+}
+::-webkit-file-upload-button {
+    display: none;
+ }
+.Stepnext_btn{
+    background-color: #F6D236 !important;
+    padding: 12px 25px!important;
+    
+    border-radius: 10px !important
+}
+.Stepnext_btn>svg{
+    margin-left: 5px;
+}
+.Usertext{
+    background: url(/img/User.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 6px;
+    padding:15px 0 15px 45px !important;
+    margin-top: 20px;
+    border-radius: 10px !important;
+}
+.Mailtext{
+    background: url(/img/Mail.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 6px;
+    padding:15px 0 15px 45px !important;
+    margin-top: 20px;
+    border-radius: 10px !important;
+}  
+.Locationtext{
+    background: url(/img/Place\ Marker.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 6px;
+    padding:15px 0 15px 45px !important;
+    margin-top: 20px;
+    border-radius: 10px !important;
+}
+
+.Genderselect{
+    background: url(/img/Gender\ Equality.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 30px !important;
+    background-position: 6px !important;
+    padding:15px 0 15px 45px !important;
+    margin-top: 20px !important;
+    border-radius: 10px !important;
+}
+.Agetext{
+    background: url(/img/Age.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 6px;
+    padding:15px 0 15px 45px !important;
+    margin-top: 20px;
+    border-radius: 10px !important;
+}
+.Mobiletext{
+    background: url(/Images/Phone.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 6px;
+    padding:15px 0 15px 45px !important;
+    margin-top: 20px;
+    border-radius: 10px !important;
+}
+.Ethnitext{
+    background: url(/img/Female\ User.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 30px !important;
+    background-position: 6px !important;
+    padding:15px 0 15px 45px !important;
+    margin-top: 20px !important;
+    border-radius: 10px !important;
+}
+
+.heighttext{
+    background: url(/img/Resize\ Vertical.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 30px !important;
+    background-position: 6px !important;
+    padding:15px 0 15px 45px !important;
+    margin-top: 20px !important;
+    border-radius: 10px !important;
+}
+
+.bodytext{
+    background: url(/img/Female\ Back.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 30px !important;
+    background-position: 6px !important;
+    padding:15px 0 15px 45px !important;
+    margin-top: 20px !important;
+    border-radius: 10px !important;
+}
+.Eyetext{
+    background: url(/img/Sleepy\ Eyes.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 30px !important;
+    background-position: 6px !important;
+    padding:15px 0 15px 45px !important;
+    margin-top: 20px !important;
+    border-radius: 10px !important;
+}
+.Pricetext{
+    background: url(/img/Dollar\ Coin.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 30px !important;
+    background-position: 6px !important;
+    padding:15px 0 15px 45px !important;
+    margin-top: 20px !important;
+    border-radius: 10px !important;
+
+}
+.Timetext{
+    background: url(/img/Alarm\ Clock.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 30px !important;
+    background-position: 6px !important;
+    padding:15px 0 15px 45px !important;
+    margin-top: 20px !important;
+    border-radius: 10px !important;
+}
+.Placetext{
+    background: url(/img/Globeform.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 30px !important;
+    background-position: 6px !important;
+    padding:15px 0 15px 45px !important;
+    margin-top: 20px !important;
+    border-radius: 10px !important;
+}
+.Datetext{
+    background: url(/img/Timeline\ Weekform.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 30px !important;
+    background-position: 6px !important;
+    padding:15px 0 15px 45px !important;
+    margin-top: 20px !important;
+    border-radius: 10px !important;
+}
+.Contactusertext{
+    background: url(/img/Registration.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 30px !important;
+    background-position: 6px !important;
+    padding:15px 0 15px 45px !important;
+    margin-top: 20px !important;
+    border-radius: 10px !important;
+}
+.Detailtext{
+    background: url(/img/Content.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 30px !important;
+    background-position: 6px !important;
+    padding:15px 0 15px 45px !important;
+    margin-top: 20px !important;
+    border-radius: 10px !important;
+}
+.Weekend_list {
+    padding: 0 !important;
+    margin: 0;
+    clear: both;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+input[type="checkbox"]:not(:checked), input[type="checkbox"]:checked {
+    position: absolute;
+    left: -9999%;
+}
+
+.Weekend_list>li {
+    padding: 7px;
+    list-style-type: none;
+    list-style-position: outside;
+}
+input[type="checkbox"] + label {
+    border-radius: 30px;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    margin-bottom: 10px;
+}
+input[type="checkbox"]:checked + label {
+    border: 1px solid white;
+    color: white;
+    background-color: #F6D236;
+}
+.Tour_schedulecontainer>div{
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+}
+.delete_btn{
+   
+    top: -14px;
+    right: -12px;
+
+}
+.delete_btn>button{
+    background-color: #000;
+    border-radius: 50px;
+    padding: 0px;
+    width: 30px;
+    height: 30px;
+
+}
+.Contactdetail_container>div{
+  border: 1px solid grey;
+  border-radius: 10px;
+
+} 
 /* Responsive codes */
 
 @media (min-width:320px) and (max-width:425px) {
     .Referalcode_container>form{
         flex-direction: column;
+    }
+    .sidebar {
+        width: 18.5rem !important;
+      
+    }
+    .sidebar .nav-item .nav-link {
+       
+        width: 100% !important;
+    }
+    .sidebar .nav-item .nav-link span {
+        font-size: 1rem !important;
     }
 }

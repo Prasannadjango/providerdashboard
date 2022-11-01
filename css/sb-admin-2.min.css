@@ -2129,7 +2129,7 @@ pre code {
 .form-control {
     display: block;
     width: 100%;
-    height: calc(1.5em + .75rem + 2px);
+   
     padding: .375rem .75rem;
     font-size: 1rem;
     font-weight: 400;
@@ -6314,8 +6314,8 @@ a.close.disabled {
     pointer-events: auto;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid rgba(0, 0, 0, .2);
-    border-radius: .3rem;
+   
+    border-radius:20px;
     outline: 0
 }
 
@@ -10826,7 +10826,7 @@ a.text-light:hover {
 }
 
 .text-dark {
-    color: #5a5c69 !important
+    color: black!important
 }
 
 a.text-dark:focus,
@@ -11532,7 +11532,7 @@ a:focus {
 }
 
 .sidebar .nav-item .nav-link {
-    text-align: center;
+   
     padding: .75rem 1rem;
     width: 6.5rem
 }
@@ -11648,7 +11648,7 @@ a:focus {
 }
 
 .sidebar .sidebar-brand {
-    height: 4.375rem;
+   
     text-decoration: none;
     font-size: 1rem;
     font-weight: 800;

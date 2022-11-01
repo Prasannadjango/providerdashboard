@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/css/bootstrap5.css" />
+    <link rel='stylesheet' href="/css/Main.css" />
+
+    <title>Find-us</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-warning sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand " href="index.html">
+                <img src="/img/finduslogo.png" class="w-100 h-100" />
+            </a>
+
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+
+                    <span>Home</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="photosettings.html">
+                    <!-- <i class="fas fa-fw fa-tachometer-alt"></i> -->
+                    <span>Photo Settings</span>
+                </a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="profilesettings.html">
+
+                    <span>Profile Settings</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="contactsettings.html">
+
+                    <span>Contact Settings</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="">
+
+                    <span>Logout</span></a>
+            </li>
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                            class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                        </svg>
+                    </button>
+
+
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                                <img class="img-profile rounded-circle" src="img/undraw_profile.svg">
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Content Row -->
+                    <div class="row bg-white p-1">
+                        <form class="py-4">
+                            <h4 class="fw-bold text-dark">1.Profile Settings</h4>
+
+                            <input type="text" class="form-control Usertext" placeholder="Enter the Username..">
+                            <input type="mail" class="form-control Mailtext" placeholder="Enter the Mail-id..">
+                            <input type="text" class="form-control  Locationtext" placeholder="Enter the Location.. ">
+                            <select class="form-select mt-4 Genderselect" aria-label="Default select example">
+                                <option selected>Select the Gender..</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="Others">Others</option>
+                            </select>
+                            <input type="text" class="form-control Agetext" placeholder="Enter the Age.. ">
+                            <input type="number" class="form-control heighttext" placeholder="Enter the height...">
+                            <input type="text" class="form-control bodytext" placeholder="Enter the Body-type...">
+                            <input type="text" class="form-control Ethnitext" placeholder="Enter the Ethnicity...">
+                            <input type="text" class="form-control Eyetext" placeholder="Enter the Eye color...">
+                            <h4 class="fw-bold text-dark pt-4">2.Weekend Availability</h4>
+                            <ul class="Weekend_list d-flex pt-3">
+                                <li>
+                                    <input type="checkbox" id="check_1" name="check_1" value="Sunday">
+                                    <label for="check_1">Sunday</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="check_2" name="check_2" value="Monday">
+                                    <label for="check_2">Monday</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="check_3" name="check_3" value="Tuesday">
+                                    <label for="check_3">Tuesday</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="check_4" name="check_4" value="Wednesday">
+                                    <label for="check_4">Wednesday</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="check_5" name="check_5" value="Thrusday">
+                                    <label for="check_5">Thrusday</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="check_6" name="check_6" value="Friday">
+                                    <label for="check_6">Friday</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="check_7" name="check_7" value="Saturday">
+                                    <label for="check_7">Saturday</label>
+                                </li>
+                            </ul>
+
+                            <input type="submit" value='Save changes'
+                                class="btn Stepnext_btn col-12 text-dark fw-bold mt-3" />
+                        </form>
+                        <h4 class="fw-bold text-dark pt-4">3.Incall prices</h4>
+                        <button class="btn Stepnext_btn col-12 text-dark fw-bold mt-3" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                class="bi bi-file-earmark-plus-fill me-2" viewBox="0 0 16 16">
+                                <path
+                                    d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM8.5 7v1.5H10a.5.5 0 0 1 0 1H8.5V11a.5.5 0 0 1-1 0V9.5H6a.5.5 0 0 1 0-1h1.5V7a.5.5 0 0 1 1 0z" />
+                            </svg> Add Incall-price </button>
+
+                        <h4 class="fw-bold text-dark pt-4">3.Tour schedules</h4>
+                        <button class="btn Stepnext_btn col-12 text-dark fw-bold mt-3" data-bs-toggle="modal"
+                        data-bs-target="#Tourmodal">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                class="bi bi-file-earmark-plus-fill me-2" viewBox="0 0 16 16">
+                                <path
+                                    d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM8.5 7v1.5H10a.5.5 0 0 1 0 1H8.5V11a.5.5 0 0 1-1 0V9.5H6a.5.5 0 0 1 0-1h1.5V7a.5.5 0 0 1 1 0z" />
+                            </svg> Add Tour schedules </button>
+                        <div class="Tour_schedulecontainer py-5 d-flex justify-content-center">
+                            <div class="border-1 col-8 position-relative">
+                                <div class="d-flex align-items-center">
+                                    <img src="/img/Globe.png" />
+                                    <h5 class="ps-3">London</h5>
+                                </div>
+                                <div class="d-flex align-items-center mt-4">
+                                     <div class="d-flex align-items-center">
+                                        <img src="/img/Timeline Week.png"/>
+                                        <p class="m-0">12.2.22</p>
+                                     </div>
+                                     <div class="d-flex align-items-center ps-3">
+                                        <img src="/img/Timeline Week.png"/>
+                                        <p class="m-0">15.2.22</p>
+                                     </div>
+                                </div>
+                                <div class="position-absolute delete_btn">
+                                    <button class="btn " >
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x-circle-fill text-white" viewBox="0 0 16 16">
+                                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/>
+                                          </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content border-0">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-dark" id="exampleModalLabel">Add New Incall</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <input type="number" placeholder='Enter the price amount...'
+                                            class="form-control Pricetext" />
+                                        <input type="number" placeholder='Enter the hours...'
+                                            class="form-control Timetext" />
+                                        <input type="submit" class="btn Stepnext_btn mt-4 text-dark col-12 fw-bold"
+                                            value='Add Incall-price' />
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="Tourmodal" tabindex="-1" aria-labelledby="Tourmodal"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content border-0">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-dark" id="exampleModalLabel">Add Tour Schedule</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <input type="text" placeholder='Enter the Location...'
+                                        class="form-control Placetext" />
+                                    <input type="number" placeholder='Enter the From Date...'
+                                        class="form-control Datetext" />
+                                        <input type="number" placeholder='Enter the To Date...'
+                                        class="form-control Datetext" />
+                                    <input type="submit" class="btn Stepnext_btn mt-4 text-dark col-12 fw-bold"
+                                        value='Add Tour-Schedule' />
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-up-short"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z" />
+        </svg>
+    </a>
+
+
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="js/demo/chart-area-demo.js"></script>
+    <script src="js/demo/chart-pie-demo.js"></script>
+
+</body>
+
+</html>
