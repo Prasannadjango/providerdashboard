@@ -242,6 +242,25 @@ input[type="checkbox"]:checked + label {
     right: -12px;
 
 }
+.Images_section>div{
+    border-radius: 10px;
+    height: 170px;
+    width:170px;
+    object-fit: contain;
+    margin: 7px;
+}
+.Images_section>div>img{
+    border-radius: inherit;
+}
+.Imagestext {
+    background: url(/img/Add\ Image.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 6px;
+    padding: 15px 0 15px 45px !important;
+    margin-top: 20px;
+    border-radius: 10px !important;
+}
 .delete_btn>button{
     background-color: #000;
     border-radius: 50px;

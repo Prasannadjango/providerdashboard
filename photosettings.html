@@ -26,44 +26,44 @@
     <!-- Page Wrapper -->
     <div id="wrapper">
 
-      <!-- Sidebar -->
-      <ul class="navbar-nav bg-warning sidebar sidebar-dark accordion" id="accordionSidebar">
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-warning sidebar sidebar-dark accordion" id="accordionSidebar">
 
-        <!-- Sidebar - Brand -->
-        <a class="sidebar-brand " href="index.html">
-           <img src="/img/finduslogo.png" class="w-100 h-100"/>
-        </a>
-
-
-        <!-- Nav Item - Dashboard -->
-        <li class="nav-item active">
-            <a class="nav-link" href="index.html">
-
-                <span>Home</span></a>
-        </li>
-        <li class="nav-item active">
-            <a class="nav-link" href="photosettings.html">
-                <!-- <i class="fas fa-fw fa-tachometer-alt"></i> -->
-                <span>Photo Settings</span>
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand " href="index.html">
+                <img src="/img/finduslogo.png" class="w-100 h-100" />
             </a>
-        </li>
-        <li class="nav-item active">
-            <a class="nav-link" href="profilesettings.html">
 
-                <span>Profile Settings</span></a>
-        </li>
-        <li class="nav-item active">
-            <a class="nav-link" href="contactsettings.html">
 
-                <span>Contact Settings</span></a>
-        </li>
-        <li class="nav-item active">
-            <a class="nav-link" href="">
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
 
-                <span>Logout</span></a>
-        </li>
-    </ul>
-    <!-- End of Sidebar -->
+                    <span>Home</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="photosettings.html">
+                    <!-- <i class="fas fa-fw fa-tachometer-alt"></i> -->
+                    <span>Photo Settings</span>
+                </a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="profilesettings.html">
+
+                    <span>Profile Settings</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="contactsettings.html">
+
+                    <span>Contact Settings</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="">
+
+                    <span>Logout</span></a>
+            </li>
+        </ul>
+        <!-- End of Sidebar -->
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
 
@@ -118,17 +118,39 @@
                                             <image id="profileImage" />
                                         </div>
                                         <p class="text-center pt-2 text-black-50">Tap to upload</p>
-                                        <input id="imageUpload" type="file"  placeholder="Photo"
-                                            required="">
+                                        <input id="imageUpload" type="file" placeholder="Photo" required="">
 
                                         <div class="pt-4 d-flex justify-content-center flex-column">
                                             <h5 class="fw-bold text-center text-dark">
                                                 Select the pictures to be added
                                             </h5>
-                                            <input type="file" multiple />
+                                            <input type="file" class='form-control Imagestext' multiple />
+                                            <p class="m-0 py-4">You can choose about 6 Images</p>
+                                            <div class="Images_section my-4 d-flex flex-wrap">
+
+                                                <div>
+                                                    <img src="/img/modelexample1.jpg" class="w-100 h-100" />
+                                                </div>
+                                                <div>
+                                                    <img src="/img/modelsample2.jpg" class="w-100 h-100" />
+                                                </div>
+                                                <div>
+                                                    <img src="/img/modelexample1.jpg" class="w-100 h-100" />
+                                                </div>
+                                                <div>
+                                                    <img src="/img/modelsample2.jpg" class="w-100 h-100" />
+                                                </div>
+                                                <div>
+                                                    <img src="/img/modelexample1.jpg" class="w-100 h-100" />
+                                                </div>
+                                                <div>
+                                                    <img src="/img/modelsample2.jpg" class="w-100 h-100" />
+                                                </div>
+                                            </div>
                                         </div>
 
-                                        <input type="submit" class="btn bg-warning py-3 mt-3 text-dark w-100" value="Save changes" />
+                                        <input type="submit" class="btn bg-warning py-3 mt-3 text-dark w-100"
+                                            value="Save changes" />
                                     </form>
 
                                 </div>
