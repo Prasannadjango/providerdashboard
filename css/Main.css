@@ -242,6 +242,13 @@ input[type="checkbox"]:checked + label {
     right: -12px;
 
 }
+.activecolor{
+    background-color: #F6D236;
+    
+}
+.sidebar .nav-item .nav-link span {
+    color: #4a4a4a;
+}
 .Images_section>div{
     border-radius: 10px;
     height: 170px;
