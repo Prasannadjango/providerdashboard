@@ -204,7 +204,7 @@
     margin: 0;
     clear: both;
     flex-wrap: wrap;
-    justify-content: center;
+   
 }
 input[type="checkbox"]:not(:checked), input[type="checkbox"]:checked {
     position: absolute;
@@ -297,5 +297,8 @@ input[type="checkbox"]:checked + label {
     }
     .sidebar .nav-item .nav-link span {
         font-size: 1rem !important;
+    }
+    .Weekend_list{
+        justify-content: center;
     }
 }
