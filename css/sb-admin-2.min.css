@@ -80,7 +80,7 @@ body {
     line-height: 1.5;
     color: #858796;
     text-align: left;
-    background-color: #fff
+    background-color: #000 !important;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -11002,7 +11002,9 @@ a:focus {
 }
 
 #wrapper #content-wrapper #content {
-    flex: 1 0 auto
+    flex: 1 0 auto;
+    background-color:#000;
+    color: white;
 }
 
 .container,
@@ -11538,7 +11540,7 @@ a:focus {
 }
 
 .sidebar .nav-item .nav-link span {
-    font-size: .65rem;
+    font-size: 10px;
     display: block
 }
 

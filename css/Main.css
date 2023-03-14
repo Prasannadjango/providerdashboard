@@ -1,3 +1,6 @@
+:root{
+    --secondary-color: #c551d0;
+}
 .Referal_btn{
     color: #fff !important;
     background-color: black !important;
@@ -242,8 +245,13 @@ input[type="checkbox"]:checked + label {
     right: -12px;
 
 }
+.Tour-link::before{
+}
+.sidebar{
+    background-color: #fff;
+}
 .activecolor{
-    background-color: #F6D236;
+    background-color: var(--secondary-color);
     
 }
 .sidebar .nav-item .nav-link span {
@@ -281,14 +289,36 @@ input[type="checkbox"]:checked + label {
   border-radius: 10px;
 
 } 
+.Plans-cards {
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    border-top: 7px solid var(--secondary-color);
+}
+.Plans-cards > div:nth-child(1):after {
+    content: "";
+    width: 60px;
+    height: 4px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.Activateplan-btn{
+    background-color: var(--secondary-color) !important;
+    color: #fff !important;
+    width: 100%;
+    font-weight: bold !important;
+}
 /* Responsive codes */
 
 @media (min-width:320px) and (max-width:425px) {
     .Referalcode_container>form{
         flex-direction: column;
     }
-    .sidebar {
-        width: 18.5rem !important;
+    .sidebar,.navbar-nav {
+     display: none !important;
       
     }
     .sidebar .nav-item .nav-link {
