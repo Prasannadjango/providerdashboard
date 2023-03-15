@@ -345,9 +345,23 @@
     background-color: var(--secondary-color);
     place-items: center;
 }
+
+.accordion-button{
+    border-left: 3px solid var(--secondary-color) !important;
+    border-radius: 6px !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.accordion-button:not(.collapsed) {
+    color: #000 !important;
+    background-color: transparent !important;
+}
+
 /* Responsive codes */
 
 @media (min-width:320px) and (max-width:425px) {
+    .Incall-container>.row>div{
+        padding: 0;
+    }
     .Ads-container{
         padding: 0;
     }
