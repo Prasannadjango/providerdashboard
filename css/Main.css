@@ -324,15 +324,33 @@ input[type="checkbox"]:checked + label {
     align-items: center;
     margin: 0 auto;
 }
+.Ads-container {
+    border-radius: 10px;
+    padding: 8px;
+}
+.Credits-txt{
+    font-size: 14px;
+}
 .Activateplan-btn{
     background-color: var(--secondary-color) !important;
     color: #fff !important;
     width: 100%;
     font-weight: bold !important;
 }
+.Creditpoint-container>div>div:first-child{
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    display: grid;
+    background-color: var(--secondary-color);
+    place-items: center;
+}
 /* Responsive codes */
 
 @media (min-width:320px) and (max-width:425px) {
+    .Ads-container{
+        padding: 0;
+    }
     .Referalcode_container>form{
         flex-direction: column;
     }
