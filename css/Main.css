@@ -226,6 +226,14 @@
    border-radius: 53% !important;
 
 }
+.Photocoll-section{
+    height: 180px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.Mainpic-container > div{
+  height: 300px;
+}
 .Creditcount-container{
     justify-content: center;
 }
