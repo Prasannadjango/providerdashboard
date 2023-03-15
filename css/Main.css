@@ -245,7 +245,26 @@ input[type="checkbox"]:checked + label {
     right: -12px;
 
 }
-.Tour-link::before{
+.Creditcount-container{
+    justify-content: center;
+}
+.Creditcount-container>div{
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    width: 300px;
+}
+.Creditcount-countbadge{
+    display: grid;
+    place-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #C985CF;
+}
+.Buy-creditbtn{
+    font-size: 14px !important;
+    color: #fff !important;
+    background-color: #000 !important;
 }
 .sidebar{
     background-color: #fff;
