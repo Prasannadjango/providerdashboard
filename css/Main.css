@@ -209,31 +209,13 @@
     flex-wrap: wrap;
    
 }
-input[type="checkbox"]:not(:checked), input[type="checkbox"]:checked {
-    position: absolute;
-    left: -9999%;
-}
 
 .Weekend_list>li {
     padding: 7px;
     list-style-type: none;
     list-style-position: outside;
 }
-input[type="checkbox"] + label {
-    border-radius: 30px;
-    display: inline-block;
-    padding: 10px;
-    cursor: pointer;
-    border: 1px solid black;
-    color: black;
-    background-color: white;
-    margin-bottom: 10px;
-}
-input[type="checkbox"]:checked + label {
-    border: 1px solid white;
-    color: white;
-    background-color: #F6D236;
-}
+
 .Tour_schedulecontainer>div{
     border: 1px solid grey;
     padding: 10px;
@@ -241,8 +223,7 @@ input[type="checkbox"]:checked + label {
 }
 .delete_btn{
    
-    top: -14px;
-    right: -12px;
+   border-radius: 53% !important;
 
 }
 .Creditcount-container{
@@ -272,6 +253,10 @@ input[type="checkbox"]:checked + label {
 .activecolor{
     background-color: var(--secondary-color);
     
+}
+.color-btn{
+    background-color: var(--secondary-color) !important;
+    color: #fff !important;
 }
 .sidebar .nav-item .nav-link span {
     color: #4a4a4a;
@@ -313,6 +298,13 @@ input[type="checkbox"]:checked + label {
     color: #000;
     border-radius: 10px;
     border-top: 7px solid var(--secondary-color);
+}
+.Generalinfo-heading:after{
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: var(--secondary-color);
+    position: absolute;
 }
 .Plans-cards > div:nth-child(1):after {
     content: "";
