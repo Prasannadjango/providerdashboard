@@ -355,7 +355,10 @@
     color: #000 !important;
     background-color: transparent !important;
 }
-
+.Availablecheckbox > .form-check-input{
+    width: 20px !important;
+    height: 20px !important;
+}
 /* Responsive codes */
 
 @media (min-width:320px) and (max-width:425px) {
