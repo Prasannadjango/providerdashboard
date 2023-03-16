@@ -315,8 +315,25 @@
                         <div class="col-12 bg-white p-3" style="border-radius: inherit;">
 
                             <div class="d-flex justify-content-end">
-                                <button class="btn fw-bold Buy-creditbtn">Add Location</button>
+                                <button class="btn fw-bold Buy-creditbtn" data-bs-toggle="modal" data-bs-target="#addlocation">Add Location</button>
                             </div>
+                            <div class="modal fade text-dark" id="addlocation" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog mx-auto">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title fw-bold" id="exampleModalLabel">Add Location</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <form>
+                                        <input type="text" class="form-control mb-3"/>
+                                        <button class="color-btn text-white btn">Add Location</button>
+                                      </form>
+                                    </div>
+                                   
+                                  </div>
+                                </div>
+                              </div>
                             <div class="Locationcontainer text-dark py-4">
                                 <div class="accordion accordion-flush" id="accordionFlushExample">
                                     <div class="accordion-item border-0 mb-3 LocationAccordion">
@@ -386,9 +403,27 @@
                                                                 <h6 class="fw-bolder">In-call</h6>
                                                             </div>
                                                             <div>
-                                                                <button class="btn color-btn">
+                                                                <button class="btn color-btn text-white fw-bold"  data-bs-toggle="modal" data-bs-target="#incallmodal">
                                                                     Add Incall
                                                                 </button>
+                                                                <div class="modal fade text-dark" id="incallmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                                    <div class="modal-dialog mx-auto">
+                                                                      <div class="modal-content">
+                                                                        <div class="modal-header">
+                                                                          <h5 class="modal-title fw-bold " id="exampleModalLabel">Add Incall price</h5>
+                                                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                        </div>
+                                                                        <div class="modal-body">
+                                                                          <form>
+                                                                            <input type="number" class="form-control mb-3" placeholder="timing(in hrs)"/>
+                                                                            <input type="number" class="form-control mb-3" placeholder="rate"/>
+                                                                            <button class="color-btn text-white btn">Add Incall-price</button>
+                                                                          </form>
+                                                                        </div>
+                                                                       
+                                                                      </div>
+                                                                    </div>
+                                                                  </div>
                                                             </div>
                                                         </div>
                                                         <div class="row py-5">
@@ -421,9 +456,27 @@
                                                                 <h6 class="fw-bolder">Out-call</h6>
                                                             </div>
                                                             <div>
-                                                                <button class="btn color-btn">
+                                                                <button class="btn color-btn text-white fw-bold"  data-bs-toggle="modal" data-bs-target="#outcallmodal">
                                                                     Add Out-call
                                                                 </button>
+                                                                <div class="modal fade text-dark" id="outcallmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                                    <div class="modal-dialog mx-auto">
+                                                                      <div class="modal-content">
+                                                                        <div class="modal-header">
+                                                                          <h5 class="modal-title fw-bold " id="exampleModalLabel">Add Outcall price</h5>
+                                                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                        </div>
+                                                                        <div class="modal-body">
+                                                                          <form>
+                                                                            <input type="number" class="form-control mb-3" placeholder="timing(in hrs)"/>
+                                                                            <input type="number" class="form-control mb-3" placeholder="rate"/>
+                                                                            <button class="color-btn text-white btn">Add Outcall-price</button>
+                                                                          </form>
+                                                                        </div>
+                                                                       
+                                                                      </div>
+                                                                    </div>
+                                                                  </div>
                                                             </div>
                                                         </div>
                                                         <div class="row py-5">

@@ -376,9 +376,7 @@
     height: 55px;
     background-color: var(--secondary-color);
 }
-.modal.show .modal-dialog{
-    margin: 0 !important;
-}
+
 .Responsive-logo{
     width: 186px;
     display: none;

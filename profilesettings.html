@@ -406,9 +406,27 @@
                                         </h5>
                                     </div>
                                     <div>
-                                        <button class="btn Buy-creditbtn fw-bold">
+                                        <button class="btn Buy-creditbtn fw-bold"  data-bs-toggle="modal" data-bs-target="#contact">
                                             Add Contact
                                         </button>
+                                        <div class="modal fade text-dark" id="contact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog mx-auto">
+                                              <div class="modal-content">
+                                                <div class="modal-header">
+                                                  <h5 class="modal-title fw-bold " id="exampleModalLabel">Add ew Contact </h5>
+                                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                  <form>
+                                                    <input type="text" class="form-control mb-3" placeholder="Contact Type"/>
+                                                    <input type="text" class="form-control mb-3" placeholder="Info"/>
+                                                    <button class="color-btn text-white btn fw-bold w-100">Add New Contact </button>
+                                                  </form>
+                                                </div>
+                                               
+                                              </div>
+                                            </div>
+                                          </div>
                                     </div>
                                 </div>
                                 <div
