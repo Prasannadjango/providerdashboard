@@ -380,6 +380,10 @@
 .modal.show .modal-dialog{
     margin: 0 !important;
 }
+.Responsive-logo{
+    width: 186px;
+
+}
 /* Responsive codes */
 
 @media (min-width:320px) and (max-width:425px) {
