@@ -377,6 +377,9 @@
     height: 55px;
     background-color: var(--secondary-color);
 }
+.modal.show .modal-dialog{
+    margin: 0 !important;
+}
 /* Responsive codes */
 
 @media (min-width:320px) and (max-width:425px) {
