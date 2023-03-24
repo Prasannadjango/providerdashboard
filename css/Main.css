@@ -411,4 +411,16 @@
     .Weekend_list{
         justify-content: center;
     }
+    .Creditpoint-container,.Contact-info,.Location-btn{
+        flex-direction: column;
+    }
+    .Buy-creditbtn{
+        margin-top: 10px;
+    }
+    .Location-btn > div > button{
+          width: 100%;
+          margin-bottom: 10px;
+    }
+    
+   
 }
